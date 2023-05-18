@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+if [ "$1" = "remove" ] || [ "$1" = "upgrade" ] && [ -x /usr/share/cli-common/gac-package-remove ]; then
+for dll in Emgu.CV.World Emgu.CV.UI ZedGraph; do gacutil -u $dll; done
+fi

@@ -1,0 +1,2 @@
+#!/bin/sh
+mkdir -p /usr/lib/pkgconfig /usr/lib/cli/emgucv-. /usr/share/opencv/haarcascades /usr/share/opencv/lbpcascades /usr/share/opencv/doc 

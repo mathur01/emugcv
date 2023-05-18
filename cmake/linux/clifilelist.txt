@@ -1,0 +1,3 @@
+/usr/lib/cli/emgucv-./Emgu.CV.World.dll
+/usr/lib/cli/emgucv-./Emgu.CV.UI.dll
+/usr/lib/cli/emgucv-./ZedGraph.dll

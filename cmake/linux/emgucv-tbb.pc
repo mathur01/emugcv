@@ -1,0 +1,9 @@
+prefix=/usr
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib/cli/emgucv-.
+apidir=${exec_prefix}/lib/cli/emgucv-.
+
+Name: emgucv-tbb
+Description: Emgu CV is a cross platform .Net wrapper to the OpenCV image processing library.
+Version: ...0
+Libs:  -r:${libdir}/Emgu.CV.World.dll -r:${libdir}/Emgu.CV.UI.dll -r:${libdir}/ZedGraph.dll
